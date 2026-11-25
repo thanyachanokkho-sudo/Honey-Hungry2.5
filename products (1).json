@@ -1,0 +1,42 @@
+[
+  {
+    "id": "DM-FRESH-30",
+    "name": "DAYMOOD Fresh ไซส์เล็ก 30ml (ทดลองใช้)",
+    "mood": "fresh",
+    "type": "rollon",
+    "size": "30ml",
+    "price": 89,
+    "image": "images/fresh.jpg",
+    "description": "พกพาสะดวกในขนาดทดลอง ให้คุณสัมผัสความรู้สึกสดชื่น โปร่งสบาย และสะอาดเบาสบายได้ทุกที่ทุกเวลา"
+  },
+  {
+    "id": "DM-FRESH-100",
+    "name": "DAYMOOD Fresh ไซส์ใหญ่ 100ml (ใช้งานปกติ)",
+    "mood": "fresh",
+    "type": "spray",
+    "size": "100ml",
+    "price": 199,
+    "image": "images/fresh.jpg",
+    "description": "ขนาดใช้งานประจำวันสำหรับคนรักความสดชื่น โปร่งโล่ง และเบาสบายเส้นผมได้ต่อเนื่องทุกเช้า"
+  },
+  {
+    "id": "DM-CONF-30",
+    "name": "DAYMOOD Confident ไซส์เล็ก 30ml (ทดลองใช้)",
+    "mood": "confident",
+    "type": "rollon",
+    "size": "30ml",
+    "price": 89,
+    "image": "images/confident.jpg",
+    "description": "ขนาดทดลองพกง่ายที่ช่วยเติมความรู้สึกสะอาด นิ่ง ดูดี และพร้อมออกพบผู้คนได้ทันที"
+  },
+  {
+    "id": "DM-CONF-100",
+    "name": "DAYMOOD Confident ไซส์ใหญ่ 100ml (ใช้งานปกติ)",
+    "mood": "confident",
+    "type": "spray",
+    "size": "100ml",
+    "price": 199,
+    "image": "images/confident.jpg",
+    "description": "ขนาดใช้งานปกติที่ให้ผมสะอาดดูดี มีความน่าเชื่อถือ และพร้อมสร้างความมั่นใจให้คุณได้ทุกวัน"
+  }
+]

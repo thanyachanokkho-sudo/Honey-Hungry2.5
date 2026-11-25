@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DAYMOOD — ยาสระผมที่เลือกฟีลได้ตามอารมณ์</title>
+  <meta name="description" content="DAYMOOD ยาสระผมที่ออกแบบมาให้คุณเลือกฟีลของเส้นผมได้ตามอารมณ์ในแต่ละวัน">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html">DAYMOOD</a>
+      <nav class="nav">
+        <a href="index.html" class="active">หน้าแรก</a>
+        <a href="product.html">สินค้า</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero เต็มจอแรก -->
+    <section class="hero" style="min-height: calc(100vh - 72px); display: flex; align-items: center;">
+      <div class="container" style="grid-template-columns: 1fr; text-align: center; justify-items: center;">
+        <div>
+          <span class="eyebrow">DAYMOOD · Hair Care</span>
+          <h1>ยาสระผมที่ออกแบบมาให้คุณเลือกฟีลของเส้นผมได้ตามอารมณ์ในแต่ละวัน</h1>
+          <hr class="divider">
+          <p class="lead" style="margin-left: auto; margin-right: auto;">
+            ทั้งความสดชื่นโปร่งสบาย และความมั่นใจพร้อมเจอผู้คน
+          </p>
+          <a class="btn btn--gold mt-md" href="product.html">ดูสินค้าทั้งหมด</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mood -->
+    <section class="section section--cream" id="moods">
+      <div class="container">
+        <div class="text-center">
+          <span class="eyebrow">Choose Your Mood</span>
+          <h2>วันนี้คุณอยากรู้สึกแบบไหน</h2>
+          <hr class="divider">
+        </div>
+
+        <div class="grid grid--2 mt-lg">
+          <a class="product-card mood-fresh" href="product.html?mood=fresh">
+            <div class="product-card__body">
+              <span class="mood-tag mood-fresh">Fresh</span>
+              <h3 class="product-card__title mt-sm"><span class="mood-underline">สดชื่น (Fresh)</span></h3>
+              <p class="product-card__desc mt-sm">
+                ตื่นตัวรับวันใหม่ด้วยความรู้สึกโปร่งโล่ง สะอาด และเบาสบายตั้งแต่หนังศีรษะจรดปลายผม
+                เหมาะกับวันที่อากาศร้อน วันที่ต้องการรีเฟรชตัวเอง หรือวันที่อยากเริ่มต้นแบบกระปรี้กระเปร่า
+              </p>
+              <span class="product-card__meta">ดูสินค้า Fresh →</span>
+            </div>
+          </a>
+
+          <a class="product-card mood-confident" href="product.html?mood=confident">
+            <div class="product-card__body">
+              <span class="mood-tag mood-confident">Confident</span>
+              <h3 class="product-card__title mt-sm"><span class="mood-underline">มั่นใจ (Confident)</span></h3>
+              <p class="product-card__desc mt-sm">
+                มอบความรู้สึกสะอาดนิ่ง สุขุม ดูดี และน่าเชื่อถือ ให้ผมดูเป็นระเบียบและมีเสน่ห์อย่างเป็นธรรมชาติ
+                เหมาะกับวันทำงาน ประชุม หรือวันที่ต้องออกไปพบปะผู้คน
+              </p>
+              <span class="product-card__meta">ดูสินค้า Confident →</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span class="logo">DAYMOOD</span>
+      <p class="muted">เลือกฟีลของเส้นผม ตามอารมณ์ในแต่ละวัน</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

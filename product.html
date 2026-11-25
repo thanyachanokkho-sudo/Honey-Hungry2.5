@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>สินค้าทั้งหมด — DAYMOOD</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html">DAYMOOD</a>
+      <nav class="nav">
+        <a href="index.html">หน้าแรก</a>
+        <a href="product.html" class="active">สินค้า</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="text-center">
+          <span class="eyebrow">Collection</span>
+          <h1 style="font-size: clamp(1.8rem, 4vw, 2.6rem);">สินค้าทั้งหมด</h1>
+          <hr class="divider">
+        </div>
+
+        <!-- script.js สร้างปุ่มกรอง mood ที่นี่ -->
+        <div id="filter-bar" class="text-center mb-lg"></div>
+
+        <!-- script.js สร้างการ์ดสินค้าที่นี่ -->
+        <div id="product-list" class="grid grid--3"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span class="logo">DAYMOOD</span>
+      <p class="muted">เลือกฟีลของเส้นผม ตามอารมณ์ในแต่ละวัน</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
